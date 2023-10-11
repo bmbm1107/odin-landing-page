@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+
+    display: flex;
+    margin: 10px 60px;
+}
+
+
+
+
+.header img {
+    width: 70px;
+    flex: 0 0 auto;
+    margin-right: auto;
+}
+
+.header ul {
+    align-self: flex-end;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.hero-section {
+    display: flex;
+}
